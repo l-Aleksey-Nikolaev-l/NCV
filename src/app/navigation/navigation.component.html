@@ -1,0 +1,23 @@
+<section class="navigation">
+
+  <input type="checkbox" id="check" [(ngModel)]="checked">
+  <label for="check" class="checkButton">||||</label>
+
+  <a class="logo" href="{{top_area}}">
+    <img src="assets/img/logo32x96.png" alt="logo">
+  </a>
+
+
+
+  <ul class="menu" (click)="clicked()">
+    <li><a href="{{about_me}}">About me</a></li>
+    <li><a href="{{projects}}">Projects</a></li>
+    <li><a href="{{skills}}">Skills</a></li>
+    <li><a href="{{experience}}">Experience</a></li>
+    <li><a href="{{education}}">Education</a></li>
+    <li><a href="{{hobby}}">Hobby</a></li>
+    <li><a href="{{contacts}}">Contacts</a></li>
+  </ul>
+
+
+</section>

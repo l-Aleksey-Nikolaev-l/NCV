@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top_area {
+  background-color: black;
+  color: white;
+  font-family: "Atkinson Hyperlegible", serif;
+}
+
+.layers {
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.layers__container {
+  height: 100vh;
+  min-height: 500px;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--mouse_y)) rotateY(var(--mouse_x));
+  transition: transform 1.5s cubic-bezier(0.05, 0.5, 0, 1);
+  will-change: transform;
+}
+
+.layers__item {
+  position: absolute;
+  inset: -5vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layer-1 {
+  transform: translateZ(-70px) scale(1.15);
+}
+
+.layer-2 {
+  transform: translateZ(80px) scale(0.95);
+}
+
+.layer-3 {
+  transform: translateZ(160px) scale(0.9);
+}
+
+.layer-5 {
+  transform: translateZ(300px) scale(0.9);
+}
+
+.layer-6 {
+  transform: translateZ(380px);
+}
+
+.hero-content {
+  font-size: calc(var(--index) * 2);
+  text-align: center;
+  letter-spacing: calc(var(--index) * 0.2);
+  line-height: 1.7em;
+}
+
+.hero-content__p {
+  text-transform: none;
+  font-size: calc(var(--index) * 1);
+  line-height: 1.5;
+}
+
+.layer-5, .layer-6 {
+  pointer-events: none;
+}

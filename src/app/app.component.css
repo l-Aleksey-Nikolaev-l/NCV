@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+app-about-me,
+app-projects,
+app-skills,
+app-experience,
+app-education,
+app-hobby,
+app-contacts {
+  scroll-margin-top: 60px;
+}
