@@ -2,17 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
 }
 
 :root {
   --mouse_x: 0;
   --mouse_y: 0;
   --index: calc(1vw + 1vh);
-}
-
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  font-weight: 400;
 }
 
 html {
