@@ -8,7 +8,7 @@
 
 .navigation {
   position: sticky;
-  background: #819dd6;
+  background: rgb(129, 157, 214);
   font-family: "Atkinson Hyperlegible", serif;
   top: 0;
   width: 100%;
@@ -58,6 +58,21 @@
 
 #check {
   display: none;
+}
+
+@media (min-width: 1700px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    position: relative;
+  }
+
+  .menu {
+    float: left;
+    margin-left: 354px;
+  }
 }
 
 
