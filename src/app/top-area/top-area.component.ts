@@ -7,11 +7,17 @@ import { Component } from '@angular/core';
 })
 export class TopAreaComponent {}
 
+
 document.addEventListener("mousemove", e => {
+  let raw_x = (e.clientX - (window.innerWidth / 2)) * -0.005;
+  let raw_y = (e.clientY - (window.innerHeight / 2)) * -0.01;
+
   Object.assign(document.documentElement, {
     style: `
-    --mouse_x: ${(e.clientX - (window.innerWidth / 2)) * -0.005}deg;
-    --mouse_y: ${(e.clientY - (window.innerHeight / 2)) * 0.01}deg;
+    --screenWidth: ${window.innerWidth};
+    --screenHeight: ${window.innerHeight};
+    --mouse_x: ${raw_x}deg;
+    --mouse_y: ${raw_y}deg;
     `
   })
 })

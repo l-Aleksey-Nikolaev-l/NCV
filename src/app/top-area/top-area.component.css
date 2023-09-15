@@ -1,3 +1,7 @@
+/*============================================================*/
+/*========== TOP AREA                                        */
+/*============================================================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -46,11 +50,11 @@
   transform: translateZ(160px) scale(0.9);
 }
 
-.layer-5 {
+.layer-4 {
   transform: translateZ(300px) scale(0.9);
 }
 
-.layer-6 {
+.layer-5 {
   transform: translateZ(380px);
 }
 
@@ -69,4 +73,15 @@
 
 .layer-5, .layer-6 {
   pointer-events: none;
+}
+
+:root {
+  --screenWidth: 0;
+  --screenHeight: 0;
+}
+
+@media (min-width: 1921px) {
+  .layers__container {
+    transform: rotateX(calc(var(--mouse_y) / (var(--screenWidth) / 500))) rotateY(calc(var(--mouse_x) / (var(--screenHeight) / 500)));
+  }
 }
