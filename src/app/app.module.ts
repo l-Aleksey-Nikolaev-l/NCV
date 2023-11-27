@@ -13,6 +13,7 @@ import { EducationComponent } from './education/education.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import {FormsModule} from "@angular/forms";
+import { ProjectComponent } from './projects/project/project.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {FormsModule} from "@angular/forms";
     ExperienceComponent,
     EducationComponent,
     HobbyComponent,
-    ContactsComponent
+    ContactsComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
