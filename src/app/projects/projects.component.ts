@@ -10,35 +10,39 @@ export class ProjectsComponent {
 
   projectsData = [
     {
-      picture: "assets/img/Currency_Chart.PNG",
       projectName: "Currency Chart",
+      picture: "assets/img/Currency_Chart.PNG",
       description: "A web-app with a chart for comparing currencies. " +
         "The app contains a user management panel. A client was built " +
         "using Angular, CSS, HTML and Capture One. Server side: NodeJS and " +
         "Firebase database. Login to the app: Admin / Password: 12345",
-      link: ""
+      projectLink: "https://currency-chart.vercel.app/Login",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/CurrencyChart"
     },
     {
-      picture: "assets/img/PhotoTransfer.gif",
       projectName: "PhotoTransfer",
+      picture: "assets/img/PhotoTransfer.gif",
       description: "A Windows application for archiving photos. User can copy or " +
         "move photos from memory card to an archive folder (an external HDD/SSD). Built using " +
         "C# and Windows Forms in Visual Studio",
-      link: ""
+      projectLink: "",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/PhotoTransfer"
     },
     {
-      picture: "assets/img/Playfair.gif",
       projectName: "Playfair cipher",
-      description: "a Windows application for text encryption. This app uses Playfair cipher " +
+      picture: "assets/img/Playfair.gif",
+      description: "A Windows application for text encryption. This app uses Playfair cipher " +
         "with all rules and a keyword. In addition, user can decipher a text. " +
         "Built using C# and Windows Forms in Visual Studio ",
-      link: ""
+      projectLink: "",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Playfair_cipher"
     },
     {
-      picture: "assets/img/CV_As_A_Project.gif",
       projectName: "CV As A Project",
+      picture: "assets/img/CV_As_A_Project.gif",
       description: "An one-page CV web project built using HTML, CSS in WebStorm and Adobe Lightroom",
-      link: ""
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/CV/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/CV"
     }
   ];
 

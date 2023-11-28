@@ -1,7 +1,13 @@
-<!--<p>{{inputData.description}}</p>-->
+
 <div class="project">
+  <div class="project_name">
+    <p>{{inputData.projectName}}</p>
+  </div>
   <div class="project_container">
-    <img src="{{inputData.picture}}" alt="">
-    <p>{{inputData.description}}</p>
+    <img src="{{inputData.picture}}" alt="Picture of project">
+    <p>{{inputData.description}} <br>
+      <a *ngIf="inputData.projectLink != ''" href="{{inputData.projectLink}}" target="_blank">Project Link</a>
+      <a *ngIf="inputData.sourceLink != ''" href="{{inputData.sourceLink}}" target="_blank">Source Link</a>
+    </p>
   </div>
 </div>

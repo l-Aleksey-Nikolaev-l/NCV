@@ -1,12 +1,17 @@
-import {Component, Input} from "@angular/core";
+import {Component, Input, OnInit} from "@angular/core";
 
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.css']
 })
-export class ProjectComponent {
+export class ProjectComponent implements OnInit {
 
   @Input() inputData:any;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 
 }
