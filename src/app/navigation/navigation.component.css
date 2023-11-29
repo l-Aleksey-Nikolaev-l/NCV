@@ -8,8 +8,9 @@
   top: 0;
   width: 100%;
   height: 60px;
-  background: rgb(129, 157, 214);
+  background: #366735; /*RAL 6001*/
   user-select: none;
+  border-bottom: solid 4px black;
 }
 
 .logo {
@@ -18,7 +19,6 @@
   display: flex;
   align-items: center;
   padding: 0 24px 0 200px;
-  border-right: 4px solid rgba(255, 0, 0, 0.31);
 }
 
 .logo img {
@@ -51,6 +51,10 @@
   line-height: 60px;
   margin: 0 40px 0 0;
   cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #check {
@@ -95,7 +99,7 @@
     height: 0;
     width: 100%;
     margin-right: 0;
-    background-color: #5170b2;
+    background: #27352A; /*RAL 6009*/
     text-align: center;
     overflow: hidden;
     transition: all 0.5s;
@@ -107,7 +111,7 @@
 
   .menu li {
     display: block;
-    line-height: 80px;
+    line-height: 70px;
   }
 
   .menu a {

@@ -2,16 +2,22 @@
 /*========== TOP AREA                                        */
 /*============================================================*/
 
+
+:root {
+  --screenWidth: 0;
+  --screenHeight: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Azeret Mono', monospace;
 }
 
 .top_area {
   background-color: black;
   color: white;
-  font-family: "Atkinson Hyperlegible", serif;
 }
 
 .layers {
@@ -59,25 +65,22 @@
 }
 
 .hero-content {
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 5);
+  word-spacing: -24px;
+  text-transform: none;
   text-align: center;
-  letter-spacing: calc(var(--index) * 0.2);
-  line-height: 1.7em;
 }
 
-.hero-content__p {
-  text-transform: none;
-  font-size: calc(var(--index) * 1);
-  line-height: 1.5;
+.hero-content div {
+  font-family: "Atkinson Hyperlegible", serif;
+  font-size: calc(var(--index) * 1.2);
+  letter-spacing: calc(var(--index) * 0.2);
+  word-spacing: normal;
+  line-height: 3rem;
 }
 
 .layer-5, .layer-6 {
   pointer-events: none;
-}
-
-:root {
-  --screenWidth: 0;
-  --screenHeight: 0;
 }
 
 @media (min-width: 1921px) {
