@@ -69,6 +69,7 @@
   word-spacing: -24px;
   text-transform: none;
   text-align: center;
+  margin: auto 64px;
 }
 
 .hero-content div {
@@ -86,5 +87,10 @@
 @media (min-width: 1921px) {
   .layers__container {
     transform: rotateX(calc(var(--mouse_y) / (var(--screenWidth) / 500))) rotateY(calc(var(--mouse_x) / (var(--screenHeight) / 500)));
+  }
+}
+
+@media (max-width: 1006px) { /* for Phones */
+  .hero-content {
   }
 }
