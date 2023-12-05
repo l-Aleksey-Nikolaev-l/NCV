@@ -14,6 +14,7 @@ import { HobbyComponent } from './hobby/hobby.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import {FormsModule} from "@angular/forms";
 import { ProjectComponent } from './projects/project/project.component';
+import { JobComponent } from './experience/job/job.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProjectComponent } from './projects/project/project.component';
     EducationComponent,
     HobbyComponent,
     ContactsComponent,
-    ProjectComponent
+    ProjectComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,

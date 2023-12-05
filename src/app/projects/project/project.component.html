@@ -1,23 +1,20 @@
 <section class="project">
 
-  <img class="project_picture" src="{{inputData.picture}}" alt="Picture of project">
+  <img class="project_picture" src="{{inputProjectData.picture}}" alt="Picture of project">
 
   <div class="project_info">
 
-    <p id="project_name">{{inputData.projectName}}</p>
+    <p id="project_name">{{inputProjectData.projectName}}</p>
 
-    <p id="project_description">{{inputData.description}}</p>
+    <p id="project_description">{{inputProjectData.description}}</p>
 
   </div>
 
   <div class="project_links">
 
-    <a id="project_sources" *ngIf="inputData.sourceLink != ''" href="{{inputData.sourceLink}}" target="_blank">Open sources</a>
-    <a id="project_link" *ngIf="inputData.projectLink != ''" href="{{inputData.projectLink}}" target="_blank">Open project</a>
+    <a id="project_sources" *ngIf="inputProjectData.sourceLink != ''" href="{{inputProjectData.sourceLink}}" target="_blank">Open sources</a>
+    <a id="project_link" *ngIf="inputProjectData.projectLink != ''" href="{{inputProjectData.projectLink}}" target="_blank">Open project</a>
 
   </div>
 
 </section>
-
-
-

@@ -1,1 +1,3 @@
-<p>experience works!</p>
+<section class="experience">
+  <app-job *ngFor="let eachJob of jobData" [inputJobData]="eachJob"></app-job>
+</section>
