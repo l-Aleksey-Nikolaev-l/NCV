@@ -1,0 +1,14 @@
+<div class="job">
+
+  <div class="job_container">
+
+    <b><span class="job_caption">{{inputJobData.jobPosition}}</span> <br>
+      {{inputJobData.companyName}} {{inputJobData.years}}</b>
+
+    <ul>
+      <li *ngFor="let eachDescription of inputJobData.jobDescription">{{eachDescription}}</li>
+    </ul>
+
+  </div>
+
+</div>
