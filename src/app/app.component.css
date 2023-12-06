@@ -62,6 +62,7 @@ app-contacts::before {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 120px;
     min-width: 1600px;
     max-width: 2048px;
     /*width: 2048px;*/
