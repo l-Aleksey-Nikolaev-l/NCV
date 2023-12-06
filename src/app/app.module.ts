@@ -16,6 +16,7 @@ import {FormsModule} from "@angular/forms";
 import { ProjectComponent } from './projects/project/project.component';
 import { JobComponent } from './experience/job/job.component';
 import { DegreeComponent } from './education/degree/degree.component';
+import { CertificationComponent } from './education/certification/certification.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { DegreeComponent } from './education/degree/degree.component';
     ContactsComponent,
     ProjectComponent,
     JobComponent,
-    DegreeComponent
+    DegreeComponent,
+    CertificationComponent
   ],
   imports: [
     BrowserModule,

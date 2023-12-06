@@ -37,6 +37,17 @@ export class EducationComponent implements OnInit {
       thesis: "Creation a CNC program for an aluminum body."
     }];
 
+  eduCertificates = [
+    {
+      certificateImage: "assets/img/Johns-Hopkins-University.png",
+      certificateName: "HTML, CSS, and Javascript for Web Developers",
+      certificateID: "V3RY4TFUDBM3",
+      place: "The Johns Hopkins University",
+      issueDate: "February 2023",
+      certificateLink: "https://www.coursera.org/account/accomplishments/verify/V3RY4TFUDBM3"
+    }
+  ]
+
   constructor() {
   }
 
