@@ -15,6 +15,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import {FormsModule} from "@angular/forms";
 import { ProjectComponent } from './projects/project/project.component';
 import { JobComponent } from './experience/job/job.component';
+import { DegreeComponent } from './education/degree/degree.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { JobComponent } from './experience/job/job.component';
     HobbyComponent,
     ContactsComponent,
     ProjectComponent,
-    JobComponent
+    JobComponent,
+    DegreeComponent
   ],
   imports: [
     BrowserModule,
