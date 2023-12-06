@@ -6,3 +6,21 @@
   box-shadow: 5px 5px 0 0 rgb(40, 40, 40);
   border: solid 2px black;
 }
+
+.degree {
+  margin: 0 24px;
+}
+
+app-degree {
+  display: block;
+  margin: 24px 0;
+}
+
+@media (max-width: 1006px) { /* for Phones */
+
+  .education {
+    max-width: 500px;
+    min-width: 254px;
+  }
+
+}

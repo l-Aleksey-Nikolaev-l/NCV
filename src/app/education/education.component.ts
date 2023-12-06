@@ -13,28 +13,28 @@ export class EducationComponent implements OnInit {
       years: "2017 - 2021",
       degree: "Postgraduate degree (PhD)",
       GPA: "4.37",
-      Thesis: "Research and modernization of laser heads for their use in CNC machines"
+      thesis: "Research and modernization of laser heads for their use in CNC machines"
     },
     {
       university: "ITMO University",
-      years: "2017 - 2021",
+      years: "2015 - 2017",
       degree: "Master's Degree",
       GPA: "4.76",
-      Thesis: "Study of the influence of end mills and the combination of roughing and finishing in the manufacture of parts from alloy AMg6"
+      thesis: "Study of the influence of end mills and the combination of roughing and finishing in the manufacture of parts from alloy AMg6"
     },
     {
       university: "ITMO University",
-      years: "2017 - 2021",
+      years: "2011 - 2015",
       degree: "Bachelor's degree",
       GPA: "4.41",
-      Thesis: "Development of a technological process for the manufacture of the \"Lid\" part"
+      thesis: "Development a technological process for the manufacture of the \"Lid\" part"
     },
     {
       university: "Professional lyceum \"Petrogradsky\"",
       years: "2007 - 2011",
       degree: "CNC Setter",
       GPA: "4.05",
-      Thesis: "Creation a CNC program for an aluminum body."
+      thesis: "Creation a CNC program for an aluminum body."
     }];
 
   constructor() {
