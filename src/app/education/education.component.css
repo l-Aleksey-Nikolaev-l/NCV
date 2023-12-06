@@ -1,6 +1,7 @@
 .education {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin: auto;
   background-color: rgba(0, 255, 0, 0.05);
   box-shadow: 5px 5px 0 0 rgb(40, 40, 40);
@@ -18,7 +19,8 @@ app-degree {
 
 @media (max-width: 1006px) { /* for Phones */
 
-  .education {
+  .education,
+  .certification {
     max-width: 500px;
     min-width: 254px;
   }
