@@ -1,0 +1,1 @@
+.edu_degree {  font-size: 1.4rem;  font-weight: bold;}.edu_university,.edu_gpa,.edu_thesis {  line-height: 1.8rem;  font-size: 1.2rem;}@media (max-width: 1006px) { /* for Phones */  .edu_university,  .edu_gpa,  .edu_thesis {    display: inline-block;    width: 100%;    font-size: calc(var(--index) * 1.2);    line-height: calc(var(--index) * 1.8);  }}
