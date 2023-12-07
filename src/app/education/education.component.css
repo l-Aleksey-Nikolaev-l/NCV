@@ -17,12 +17,48 @@ app-degree {
   margin: 24px 0;
 }
 
+.certification {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.certificate {
+  width: 48%;
+}
+
+@media (max-width: 1356px) { /* for Tablet */
+
+  .certification {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
 @media (max-width: 1006px) { /* for Phones */
+
+  .certification {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto auto 50px auto;
+  }
+
+  .certificate:last-child {
+    margin: 0;
+  }
 
   .education,
   .certification {
     max-width: 500px;
     min-width: 254px;
   }
-
 }
