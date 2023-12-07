@@ -13,6 +13,14 @@
   --mouse_x: 0;
   --mouse_y: 0;
   --index: calc(1vw + 1vh);
+
+  --headerFontSize: 1.4rem;
+  --descriptionFontSize: 1.2rem;
+  --linkFontSize: 1rem;
+
+  --headerFontSizeDyna: calc(var(--index) * 1.4);
+  --descriptionFontSizeDyna: calc(var(--index) * 1.2);
+  --linkFontSizeDyna: calc(var(--index) * 1);
 }
 
 html {

@@ -5,7 +5,7 @@
 </section>
 
 <section class="certification">
-  <div class="certificate">
-    <app-certification *ngFor="let eachCertificate of eduCertificates" [inputCertificateData]="eachCertificate"></app-certification>
+  <div class="certificate" *ngFor="let eachCertificate of eduCertificates">
+    <app-certification [inputCertificateData]="eachCertificate"></app-certification>
   </div>
 </section>

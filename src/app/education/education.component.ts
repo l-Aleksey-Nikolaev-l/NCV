@@ -45,6 +45,14 @@ export class EducationComponent implements OnInit {
       place: "The Johns Hopkins University",
       issueDate: "February 2023",
       certificateLink: "https://www.coursera.org/account/accomplishments/verify/V3RY4TFUDBM3"
+    },
+    {
+      certificateImage: "assets/img/HackerRank_1000px.png",
+      certificateName: "CSS (Basic)",
+      certificateID: "B1B49D0C7BF3",
+      place: "HackerRank",
+      issueDate: "November 2023",
+      certificateLink: "https://www.hackerrank.com/certificates/b1b49d0c7bf3"
     }
   ]
 
