@@ -1,10 +1,16 @@
 <section class="hobby">
-  <div class="hobbyPicture">
+
+  <div class="hobby_picture">
     <img src="{{inputHobbiesData.hobbyPicture}}" alt="Hobby picture">
   </div>
-  <div class="hobbyDescription">
-    <p>{{inputHobbiesData.hobbyName}}</p>
-    <p>{{inputHobbiesData.hobbyDescription}}</p>
-    <p>{{inputHobbiesData.hobbyLink}}</p>
+
+  <div class="description_container">
+    <p class="hobby_name">{{inputHobbiesData.hobbyName}}</p>
+    <p class="hobby_description">{{inputHobbiesData.hobbyDescription}}</p>
+
+    <a class="hobby_link" href="{{inputHobbiesData.hobbyLink}}" target="_blank">Open link</a>
+
+
   </div>
+
 </section>
