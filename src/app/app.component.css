@@ -15,7 +15,7 @@ app-projects,
 app-skills,
 app-experience,
 app-education,
-app-hobby,
+app-hobbies,
 app-contacts {
   scroll-margin-top: 60px;
   padding: 50px 0;
@@ -26,7 +26,7 @@ app-projects::before,
 app-skills::before,
 app-experience::before,
 app-education::before,
-app-hobby::before,
+app-hobbies::before,
 app-contacts::before {
   content: "EMPTY SECTION";
   display: block;
@@ -50,8 +50,8 @@ app-experience::before {
 app-education::before {
   content: "EDUCATION";
 }
-app-hobby::before {
-  content: "HOBBY";
+app-hobbies::before {
+  content: "HOBBIES & INTERESTS";
 }
 app-contacts::before {
   content: "CONTACTS";
