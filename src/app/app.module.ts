@@ -10,13 +10,14 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { HobbyComponent } from './hobby/hobby.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import {FormsModule} from "@angular/forms";
 import { ProjectComponent } from './projects/project/project.component';
 import { JobComponent } from './experience/job/job.component';
 import { DegreeComponent } from './education/degree/degree.component';
 import { CertificationComponent } from './education/certification/certification.component';
+import { HobbyComponent } from './hobbies/hobby/hobby.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +29,13 @@ import { CertificationComponent } from './education/certification/certification.
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
-    HobbyComponent,
+    HobbiesComponent,
     ContactsComponent,
     ProjectComponent,
     JobComponent,
     DegreeComponent,
-    CertificationComponent
+    CertificationComponent,
+    HobbyComponent
   ],
   imports: [
     BrowserModule,
