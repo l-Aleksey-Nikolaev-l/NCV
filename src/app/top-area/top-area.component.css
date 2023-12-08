@@ -1,18 +1,11 @@
-/*============================================================*/
-/*========== TOP AREA                                        */
-/*============================================================*/
-
-
 :root {
   --screenWidth: 0;
   --screenHeight: 0;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: 'Azeret Mono', monospace;
+  pointer-events: none;
 }
 
 .top_area {
@@ -25,16 +18,16 @@
   overflow: hidden;
 }
 
-.layers__container {
+.layers_container {
   height: 100vh;
   min-height: 500px;
   transform-style: preserve-3d;
   transform: rotateX(var(--mouse_y)) rotateY(var(--mouse_x));
   transition: transform 1.5s cubic-bezier(0.05, 0.5, 0, 1);
-  will-change: transform;
+  /*will-change: transform;*/
 }
 
-.layers__item {
+.layers_item {
   position: absolute;
   inset: -5vw;
   background-size: cover;
@@ -64,7 +57,7 @@
   transform: translateZ(380px);
 }
 
-.hero-content {
+.top_description {
   font-size: calc(var(--index) * 5);
   word-spacing: -24px;
   text-transform: none;
@@ -72,25 +65,16 @@
   margin: auto 64px;
 }
 
-.hero-content div {
+.top_description div {
   font-family: "Atkinson Hyperlegible", serif;
-  font-size: calc(var(--index) * 1.2);
+  font-size: var(--descriptionFontSizeDyna);
   letter-spacing: calc(var(--index) * 0.2);
   word-spacing: normal;
   line-height: 3rem;
 }
 
-.layer-5, .layer-6 {
-  pointer-events: none;
-}
-
 @media (min-width: 1921px) {
-  .layers__container {
+  .layers_container {
     transform: rotateX(calc(var(--mouse_y) / (var(--screenWidth) / 500))) rotateY(calc(var(--mouse_x) / (var(--screenHeight) / 500)));
-  }
-}
-
-@media (max-width: 1006px) { /* for Phones */
-  .hero-content {
   }
 }
