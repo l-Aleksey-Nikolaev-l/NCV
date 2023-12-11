@@ -22,4 +22,9 @@ app-hobby:last-child {
 
 @media (max-width: 1006px) { /* for Phones */
 
+  .hobbies {
+    max-width: 500px;
+    min-width: 254px;
+  }
+
 }
