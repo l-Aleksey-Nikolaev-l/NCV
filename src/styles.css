@@ -27,3 +27,8 @@ html {
   scroll-behavior: smooth;
   background-color: #f9eee8;
 }
+
+::selection {
+  color: #f9eee8;
+  background-color: #366735;
+}
