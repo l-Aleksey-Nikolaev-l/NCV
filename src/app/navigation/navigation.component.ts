@@ -6,18 +6,20 @@ import { AppComponent } from "../app.component";
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css']
 })
+
 export class NavigationComponent implements OnInit {
 
   constructor(private appComponent:AppComponent) {}
 
-  top_area: string = "#" + this.appComponent.top_area;
-  about_me: string = "#" + this.appComponent.about_me;
-  projects: string = "#" + this.appComponent.projects;
-  skills: string = "#" + this.appComponent.skills;
-  experience: string = "#" + this.appComponent.experience;
-  education: string = "#" + this.appComponent.education;
-  hobby: string = "#" + this.appComponent.hobby;
-  contacts:string = "#" + this.appComponent.contacts;
+  hash:string = "#";
+  top_area: string = this.appComponent.top_area;
+  about_me: string = this.appComponent.about_me;
+  projects: string = this.appComponent.projects;
+  skills: string = this.appComponent.skills;
+  experience: string = this.appComponent.experience;
+  education: string = this.appComponent.education;
+  hobby: string = this.appComponent.hobby;
+  contacts:string = this.appComponent.contacts;
 
   checked:boolean = false;
 
@@ -26,5 +28,22 @@ export class NavigationComponent implements OnInit {
   clicked() {
     this.checked = !this.checked;
   }
+}
 
+window.addEventListener("scroll", updateNav);
+
+function updateNav() {
+  let containers = document.getElementsByClassName("main_section");
+  for(let section in containers) {
+    let sectionId = document.getElementById(containers[section].id);
+    if(!sectionId) return;
+    let container_Top = sectionId.getBoundingClientRect().y;
+    let container_Height = sectionId.clientHeight;
+    if (container_Top <= 61 && container_Top >= -(container_Height-61)) {
+      document.getElementById("nav_" + containers[section].id)!.style.textDecoration = "underline";
+    }
+    else {
+      document.getElementById("nav_" + containers[section].id)!.style.textDecoration = "none";
+    }
+  }
 }
