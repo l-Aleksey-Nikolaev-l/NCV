@@ -3,18 +3,18 @@
   <input type="checkbox" id="check" [(ngModel)]="checked">
   <label for="check" class="checkButton">||||</label>
 
-  <a class="logo" href="{{top_area}}">
+  <a class="logo" [href]="hash + top_area">
     <img src="assets/img/logo32x96.png" alt="logo">
   </a>
 
   <ul class="menu" (click)="clicked()">
-    <li><a href="{{about_me}}">About me</a></li>
-    <li><a href="{{projects}}">Projects</a></li>
-    <li><a href="{{skills}}">Skills</a></li>
-    <li><a href="{{experience}}">Experience</a></li>
-    <li><a href="{{education}}">Education</a></li>
-    <li><a href="{{hobby}}">Hobby</a></li>
-    <li><a href="{{contacts}}">Contacts</a></li>
+    <li><a id="nav_{{about_me}}" [href]="hash + about_me" >About me</a></li>
+    <li><a id="nav_{{projects}}" [href]="hash + projects">Projects</a></li>
+    <li><a id="nav_{{skills}}" [href]="hash + skills">Skills</a></li>
+    <li><a id="nav_{{experience}}" [href]="hash + experience">Experience</a></li>
+    <li><a id="nav_{{education}}" [href]="hash + education">Education</a></li>
+    <li><a id="nav_{{hobby}}" [href]="hash + hobby">Hobby</a></li>
+    <li><a id="nav_{{contacts}}" [href]="hash + contacts">Contacts</a></li>
   </ul>
 
 
