@@ -43,8 +43,14 @@
   text-transform: uppercase;
 }
 
-a:hover {
-  text-decoration: underline;
+.menu li {
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+.menu li:hover {
+  transform: scale(1.1);
+  transition: transform 100ms ease-in-out;
 }
 
 .checkButton {

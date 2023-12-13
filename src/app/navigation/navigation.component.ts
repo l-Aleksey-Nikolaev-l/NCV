@@ -37,13 +37,19 @@ function updateNav() {
   for(let section in containers) {
     let sectionId = document.getElementById(containers[section].id);
     if(!sectionId) return;
+
     let container_Top = sectionId.getBoundingClientRect().y;
     let container_Height = sectionId.clientHeight;
+
+    let nav = document.getElementById("nav_" + containers[section].id);
+    if(!nav) return;
+
     if (container_Top <= 61 && container_Top >= -(container_Height-61)) {
-      document.getElementById("nav_" + containers[section].id)!.style.textDecoration = "underline";
+      nav.style.textDecoration = "underline";
+      nav.style.textUnderlineOffset = "6px";
     }
     else {
-      document.getElementById("nav_" + containers[section].id)!.style.textDecoration = "none";
+      nav.style.textDecoration = "none";
     }
   }
 }
