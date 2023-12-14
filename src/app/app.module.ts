@@ -12,7 +12,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from "@angular/forms";
 import { ProjectComponent } from './projects/project/project.component';
 import { JobComponent } from './experience/job/job.component';
 import { DegreeComponent } from './education/degree/degree.component';

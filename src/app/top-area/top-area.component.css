@@ -5,12 +5,12 @@
 
 * {
   font-family: 'Azeret Mono', monospace;
-  pointer-events: none;
 }
 
 .top_area {
   background-color: black;
   color: white;
+  pointer-events: none;
 }
 
 .layers {
