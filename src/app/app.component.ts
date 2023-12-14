@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'NCV';
 
   top_area: string = "top_area";
   about_me: string = "about_me";
@@ -18,7 +17,6 @@ export class AppComponent implements OnInit {
   contacts: string = "contacts";
 
   ngOnInit() {}
-
 }
 
 document.addEventListener("mousemove", e => {
@@ -28,10 +26,11 @@ document.addEventListener("mousemove", e => {
 
   Object.assign(document.documentElement, {
     style: `
-    --screenWidth: ${window.innerWidth};
-    --screenHeight: ${window.innerHeight};
-    --mouse_x: ${raw_x}deg;
-    --mouse_y: ${raw_y}deg;
+            --screenWidth: ${window.innerWidth},
+            --screenHeight: ${window.innerHeight};
+            --mouse_x: ${raw_x}deg;
+            --mouse_y: ${raw_y}deg;
     `
   });
 });
+

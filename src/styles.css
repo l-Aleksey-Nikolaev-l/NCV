@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Atkinson Hyperlegible", serif;
-  font-weight: 400;
-}
 
 :root {
+
+  --colorMain: #f9eee8;
+  --colorFirst: #366735; /*RAL 6001*/
+  --colorSecond: #27352A; /*RAL 6009*/
+  --colorBackplate: #00FF000C;
+  --colorShadow: #282828;
+  --colorBorder: #000000;
+
+
+  --screenWidth: 0;
+  --screenHeight: 0;
   --mouse_x: 0;
   --mouse_y: 0;
   --index: calc(1vw + 1vh);
@@ -23,12 +27,20 @@
   --linkFontSizeDyna: calc(var(--index) * 1);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Atkinson Hyperlegible", serif;
+  font-weight: 400;
+}
+
 html {
   scroll-behavior: smooth;
-  background-color: #f9eee8;
+  background-color: var(--colorMain);
 }
 
 ::selection {
-  color: #f9eee8;
-  background-color: #366735;
+  color: var(--colorMain);
+  background-color: var(--colorFirst);
 }

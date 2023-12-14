@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Injectable, OnInit, Output} from "@angular/core";
 import { AppComponent } from "../app.component";
 
 @Component({
@@ -27,6 +27,7 @@ export class NavigationComponent implements OnInit {
 
   clicked() {
     this.checked = !this.checked;
+    let check = document.getElementById("change_theme") as HTMLInputElement;
   }
 }
 
