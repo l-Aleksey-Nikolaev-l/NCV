@@ -15,9 +15,9 @@ export class TopAreaComponent implements OnInit {
   ngOnInit(){}
 
 
-  layer1:string = "assets/img/Dark/layer-1.png";
-  layer2:string = "assets/img/Dark/layer-2.png";
-  layer4:string = "assets/img/Dark/layer-4.png";
-  layer5:string = "assets/img/Dark/layer-5.png";
+  layer1:string = "assets/img/Light/layer-1.png";
+  layer2:string = "assets/img/Light/layer-2.png";
+  layer4:string = "assets/img/Light/layer-4.png";
+  layer5:string = "assets/img/Light/layer-5.png";
 
 }
