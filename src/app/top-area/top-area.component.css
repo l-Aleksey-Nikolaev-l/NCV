@@ -37,23 +37,23 @@
   justify-content: center;
 }
 
-.layer-1 {
+#layer-1 {
   transform: translateZ(-70px) scale(1.15);
 }
 
-.layer-2 {
+#layer-2 {
   transform: translateZ(80px) scale(0.95);
 }
 
-.layer-3 {
+#layer-3 {
   transform: translateZ(160px) scale(0.9);
 }
 
-.layer-4 {
+#layer-4 {
   transform: translateZ(300px) scale(0.9);
 }
 
-.layer-5 {
+#layer-5 {
   transform: translateZ(380px);
 }
 

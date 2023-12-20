@@ -12,12 +12,14 @@ import {Component, Injectable, OnInit} from "@angular/core";
 
 export class TopAreaComponent implements OnInit {
 
-  ngOnInit(){}
+  ngOnInit(){
+    this.ThemeMode("Light");
+  }
 
-
-  layer1:string = "assets/img/Light/layer-1.png";
-  layer2:string = "assets/img/Light/layer-2.png";
-  layer4:string = "assets/img/Light/layer-4.png";
-  layer5:string = "assets/img/Light/layer-5.png";
-
+  ThemeMode(theme:string){
+    document.getElementById("layer-1")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-1.png)";
+    document.getElementById("layer-2")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-2.png)";
+    document.getElementById("layer-4")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-4.png)";
+    document.getElementById("layer-5")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-5.png)";
+  }
 }
