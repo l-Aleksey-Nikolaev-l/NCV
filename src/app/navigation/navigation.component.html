@@ -15,7 +15,9 @@
     <li><a id="nav_{{education}}" [href]="hash + education">Education</a></li>
     <li><a id="nav_{{hobby}}" [href]="hash + hobby">Hobby</a></li>
     <li><a id="nav_{{contacts}}" [href]="hash + contacts">Contacts</a></li>
-    <input id="change_theme" type="checkbox" (click)="ChangeTheme()">
+    <li>
+      <mat-slide-toggle (click)="ChangeTheme()"></mat-slide-toggle>
+    </li>
   </ul>
 
 </section>
