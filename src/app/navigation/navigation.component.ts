@@ -1,5 +1,6 @@
-import {Component, Injectable, OnInit, Output} from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { AppComponent } from "../app.component";
+import { TopAreaComponent } from "../top-area/top-area.component";
 
 @Component({
   selector: 'app-navigation',
@@ -9,7 +10,8 @@ import { AppComponent } from "../app.component";
 
 export class NavigationComponent implements OnInit {
 
-  constructor(private appComponent:AppComponent) {}
+  constructor(private appComponent:AppComponent,
+              private topArea: TopAreaComponent) {}
 
   hash:string = "#";
   top_area: string = this.appComponent.top_area;
@@ -25,9 +27,13 @@ export class NavigationComponent implements OnInit {
 
   ngOnInit() {}
 
-  clicked() {
+  DrawerMenu() {
     this.checked = !this.checked;
-    let check = document.getElementById("change_theme") as HTMLInputElement;
+  }
+
+  ChangeTheme() {
+    let themeSwitch = document.getElementById("change_theme") as HTMLInputElement;
+    themeSwitch.checked ? this.topArea.ThemeMode("Dark") : this.topArea.ThemeMode("Light");
   }
 }
 
