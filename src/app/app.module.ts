@@ -18,6 +18,8 @@ import { JobComponent } from './experience/job/job.component';
 import { DegreeComponent } from './education/degree/degree.component';
 import { CertificationComponent } from './education/certification/certification.component';
 import { HobbyComponent } from './hobbies/hobby/hobby.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { HobbyComponent } from './hobbies/hobby/hobby.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
