@@ -1,4 +1,4 @@
-import {Component, Injectable, OnInit} from "@angular/core";
+import { Component, Injectable, OnInit } from "@angular/core";
 
 @Component({
   selector: 'app-top-area',
@@ -13,13 +13,16 @@ import {Component, Injectable, OnInit} from "@angular/core";
 export class TopAreaComponent implements OnInit {
 
   ngOnInit(){
-    this.ThemeMode("Light");
   }
 
-  ThemeMode(theme:string){
-    document.getElementById("layer-1")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-1.png)";
-    document.getElementById("layer-2")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-2.png)";
-    document.getElementById("layer-4")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-4.png)";
-    document.getElementById("layer-5")!.style.backgroundImage = "url(assets/img/" + theme + "/layer-5.png)";
+  ThemeMode(){
+    for(let item = 0; item <= 3; item++) {
+      this.DarkThemeFade(document.getElementsByClassName("dark_layer")[item]);
+      this.DarkThemeFade(document.getElementsByClassName("light_layer")[item])
+    }
+  }
+
+  DarkThemeFade(element:any) {
+    element.classList[1] == "dark_layer" ? element.classList.toggle("dark_fade") : element.classList.toggle("light_fade");
   }
 }

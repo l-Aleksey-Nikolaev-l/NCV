@@ -32,8 +32,7 @@ export class NavigationComponent implements OnInit {
   }
 
   ChangeTheme() {
-    let themeSwitch = document.getElementById("change_theme") as HTMLInputElement;
-    themeSwitch.checked ? this.topArea.ThemeMode("Dark") : this.topArea.ThemeMode("Light");
+    this.topArea.ThemeMode();
   }
 }
 
