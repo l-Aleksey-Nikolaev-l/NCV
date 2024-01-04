@@ -26,7 +26,7 @@ export class HobbiesComponent implements OnInit {
     },
     {
       hobbyPicture: "assets/icons/Maps.svg",
-      hobbyName: "Science . . . Travels",
+      hobbyName: "Science . . . Traveling",
       hobbyDescription: "I really like travels. I visited many countries by car because I have a driver's license I like adventures. " +
         "Also I like science and from time to time I write scientific articles ",
       hobbyLink: "https://www.researchgate.net/profile/Aleksei-Nikolaev"
