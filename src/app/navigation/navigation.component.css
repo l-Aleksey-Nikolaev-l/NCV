@@ -4,11 +4,21 @@
 }
 
 .themeBlack {
-  background: #282828;
+  --colorNavMain: #f9eee8;
+  --colorNavFirst: #282828;
+  --colorNavSecond: #1a231c;
+  --colorNavBackplate: #00FF000C;
+  --colorNavShadow: #366735;
+  --colorNavBorder: #f9eee8
 }
 
 .themeLight {
-  background: #366735; /*RAL 6001*/
+  --colorNavMain: #f9eee8;
+  --colorNavFirst: #366735; /*RAL 6001*/
+  --colorNavSecond: #27352A; /*RAL 6009*/
+  --colorNavBackplate: #00FF000C;
+  --colorNavShadow: #282828;
+  --colorNavBorder: #000000;
 }
 
 .navigation {
@@ -16,8 +26,9 @@
   top: 0;
   width: 100%;
   height: 60px;
+  background: var(--colorNavFirst);
   user-select: none;
-  border-bottom: solid 4px black;
+  border-bottom: solid 4px var(--colorNavBorder);
 }
 
 .logo {
@@ -45,7 +56,7 @@
 }
 
 .menu a {
-  color: white;
+  color: var(--colorNavMain);
   font-size: 1.2rem;
   text-transform: uppercase;
 }
@@ -62,7 +73,7 @@
 
 .checkButton {
   display: none;
-  color: white;
+  color: var(--colorNavMain);
   font-size: 2rem;
   float: right;
   line-height: 60px;
@@ -83,17 +94,17 @@ mat-slide-toggle {
 }
 
 .mat-mdc-slide-toggle {
-  --mdc-switch-selected-handle-color: var(--colorFirst);
-  --mdc-switch-selected-pressed-handle-color: var(--colorFirst);
-  --mdc-switch-selected-pressed-state-layer-color: var(--colorFirst);
-  --mdc-switch-selected-hover-state-layer-color: var(--colorFirst);
-  --mdc-switch-selected-hover-handle-color: var(--colorFirst);
-  --mdc-switch-selected-focus-state-layer-color: var(--colorFirst);
-  --mdc-switch-selected-focus-handle-color: var(--colorFirst);
-  --mdc-switch-selected-track-color: var(--colorMain);
-  --mdc-switch-selected-pressed-track-color: var(--colorMain);
-  --mdc-switch-selected-hover-track-color: var(--colorMain);
-  --mdc-switch-selected-focus-track-color: var(--colorMain);
+  --mdc-switch-selected-handle-color: var(--colorNavShadow);
+  --mdc-switch-selected-pressed-handle-color: var(--colorNavShadow);
+  --mdc-switch-selected-pressed-state-layer-color: var(--colorNavShadow);
+  --mdc-switch-selected-hover-state-layer-color: var(--colorNavShadow);
+  --mdc-switch-selected-hover-handle-color: var(--colorNavShadow);
+  --mdc-switch-selected-focus-state-layer-color: var(--colorNavShadow);
+  --mdc-switch-selected-focus-handle-color: var(--colorNavShadow);
+  --mdc-switch-selected-track-color: var(--colorNavMain);
+  --mdc-switch-selected-pressed-track-color: var(--colorNavMain);
+  --mdc-switch-selected-hover-track-color: var(--colorNavMain);
+  --mdc-switch-selected-focus-track-color: var(--colorNavMain);
   --mdc-switch-handle-surface-color: none;
   --mdc-switch-handle-elevation-shadow: none;
   --mdc-switch-handle-shadow-color: none;
@@ -140,7 +151,7 @@ mat-slide-toggle {
     height: 0;
     width: 100%;
     margin-right: 0;
-    background: #27352A; /*RAL 6009*/
+    background: var(--colorNavSecond);
     text-align: center;
     overflow: hidden;
     transition: all 0.5s;
