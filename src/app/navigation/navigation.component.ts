@@ -33,8 +33,22 @@ export class NavigationComponent implements OnInit {
 
   ChangeTheme() {
     this.topArea.ThemeMode();
+    this.NavTheme(document.getElementsByClassName("navigation")[0]);
+  }
+
+  NavTheme(element:any) {
+    if(element.classList[1] == "themeLight") {
+      element.classList.remove("themeLight");
+      element.classList.add("themeBlack");
+    }
+    else {
+      element.classList.remove("themeBlack");
+      element.classList.add("themeLight");
+    }
+    console.log(element.classList)
   }
 }
+
 
 window.addEventListener("scroll", updateNav);
 
