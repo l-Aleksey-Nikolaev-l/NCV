@@ -99,6 +99,9 @@ mat-slide-toggle {
   --mdc-switch-unselected-hover-handle-color: #17171a;
 }
 
+::ng-deep .mdc-switch__icons{
+  display:none!important;
+}
 
 @media (min-width: 1700px) {
   .navigation {
