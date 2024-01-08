@@ -18,25 +18,44 @@
   --linkFontSizeDyna: calc(var(--index) * 1);
 }
 
+/*.themeDark {*/
+/*  --colorMain: #000000;*/
+/*  --colorFirst: #282828;*/
+/*  --colorSecond: #1a231c;*/
+/*  --colorBackplate: #00FF000C;*/
+/*  --colorShadow: #366735;*/
+/*  --colorBorder: #f9eee8;*/
+/*  --colorText: #f9eee8;*/
+/*  --invertImage: 0%;*/
+/*}*/
+
 .themeDark {
-  --colorMain: #000000;
+  --colorMain: #17171a;
   --colorFirst: #282828;
   --colorSecond: #1a231c;
-  --colorBackplate: #00FF000C;
-  --colorShadow: #366735;
-  --colorBorder: #f9eee8;
-  --colorText: #f9eee8;
-  --invertImage: 0%;
+  --colorBackplate: #1c1e22;
+  --colorShadow: #282828;
+  --colorBorder: #25272b;
+  --colorText: #d7dade;
+  --colorLink: #d7dade;
+  --colorButton: #2d3f2d;
+  --colorTextButton: #d7dade;
+  --colorToggle: #366735;
+  --invertImage: 10%;
 }
 
 .themeLight {
   --colorMain: #f9eee8;
   --colorFirst: #366735; /*RAL 6001*/
   --colorSecond: #27352A; /*RAL 6009*/
-  --colorBackplate: #00FF000C;
+  --colorBackplate: #eeebd9;
   --colorShadow: #282828;
   --colorBorder: #000000;
   --colorText: #000000;
+  --colorLink: #366735;
+  --colorButton: #366735;
+  --colorTextButton: #f9eee8;
+  --colorToggle: #000000;
   --invertImage: 100%;
 }
 
