@@ -76,21 +76,27 @@ mat-slide-toggle {
 }
 
 .mat-mdc-slide-toggle {
-  --mdc-switch-selected-handle-color: var(--colorShadow);
-  --mdc-switch-selected-pressed-handle-color: var(--colorShadow);
-  --mdc-switch-selected-pressed-state-layer-color: var(--colorShadow);
-  --mdc-switch-selected-hover-state-layer-color: var(--colorShadow);
-  --mdc-switch-selected-hover-handle-color: var(--colorShadow);
-  --mdc-switch-selected-focus-state-layer-color: var(--colorShadow);
-  --mdc-switch-selected-focus-handle-color: var(--colorShadow);
-  --mdc-switch-selected-track-color: var(--colorMain);
-  --mdc-switch-selected-pressed-track-color: var(--colorMain);
-  --mdc-switch-selected-hover-track-color: var(--colorMain);
-  --mdc-switch-selected-focus-track-color: var(--colorMain);
+  --mdc-switch-selected-handle-color: var(--colorToggle);
+  --mdc-switch-selected-pressed-handle-color: var(--colorToggle);
+  --mdc-switch-selected-pressed-state-layer-color: var(--colorToggle);
+  --mdc-switch-selected-hover-state-layer-color: var(--colorToggle);
+  --mdc-switch-selected-hover-handle-color: var(--colorToggle);
+  --mdc-switch-selected-focus-state-layer-color: var(--colorToggle);
+  --mdc-switch-selected-focus-handle-color: var(--colorToggle);
+  --mdc-switch-selected-track-color: grey;
+  --mdc-switch-selected-pressed-track-color: grey;
+  --mdc-switch-selected-hover-track-color: grey;
+  --mdc-switch-selected-focus-track-color: grey;
   --mdc-switch-handle-surface-color: none;
   --mdc-switch-handle-elevation-shadow: none;
   --mdc-switch-handle-shadow-color: none;
   --mdc-switch-disabled-handle-elevation-shadow: none;
+  --mdc-switch-selected-icon-color: var(--colorMain);
+  --mdc-switch-unselected-icon-color: var(--colorMain);
+  --mdc-switch-unselected-focus-handle-color: #17171a;
+  --mdc-switch-unselected-focus-state-layer-color: #17171a;
+  --mdc-switch-unselected-handle-color: #17171a;
+  --mdc-switch-unselected-hover-handle-color: #17171a;
 }
 
 

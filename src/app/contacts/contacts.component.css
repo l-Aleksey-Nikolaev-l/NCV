@@ -1,4 +1,5 @@
 .footer_area {
+  color: var(--colorText);
   display: flex;
   flex-direction: column;
   align-items: center;

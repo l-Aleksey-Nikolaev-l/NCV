@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   margin: auto;
-  background-color: rgba(0, 255, 0, 0.05);
+  background-color: var(--colorBackplate);
   box-shadow: 5px 5px 0 0 var(--colorShadow);
   border: solid 2px var(--colorBorder);
 }
