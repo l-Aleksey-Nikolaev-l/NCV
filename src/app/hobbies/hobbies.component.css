@@ -4,8 +4,8 @@
   margin: auto;
   padding: 24px;
   background-color: rgba(0, 255, 0, 0.05);
-  box-shadow: 5px 5px 0 0 rgb(40, 40, 40);
-  border: solid 2px black;
+  box-shadow: 5px 5px 0 0 var(--colorShadow);
+  border: solid 2px var(--colorBorder);
 }
 
 app-hobby {

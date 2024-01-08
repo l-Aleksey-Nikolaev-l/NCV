@@ -33,19 +33,20 @@ export class NavigationComponent implements OnInit {
 
   ChangeTheme() {
     this.topArea.ThemeMode();
-    this.NavTheme(document.getElementsByClassName("navigation")[0]);
+    this.NCVTheme(document.getElementById("body"));
   }
 
-  NavTheme(element:any) {
-    if(element.classList[1] == "themeLight") {
+  NCVTheme(element:any) {
+    console.log(element.classList)
+
+    if(element.classList[0] == "themeLight") {
       element.classList.remove("themeLight");
-      element.classList.add("themeBlack");
+      element.classList.add("themeDark");
     }
     else {
-      element.classList.remove("themeBlack");
+      element.classList.remove("themeDark");
       element.classList.add("themeLight");
     }
-    console.log(element.classList)
   }
 }
 

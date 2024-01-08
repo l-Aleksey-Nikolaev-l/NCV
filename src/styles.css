@@ -3,15 +3,6 @@
 
 
 :root {
-
-  --colorMain: #f9eee8;
-  --colorFirst: #366735; /*RAL 6001*/
-  --colorSecond: #27352A; /*RAL 6009*/
-  --colorBackplate: #00FF000C;
-  --colorShadow: #282828;
-  --colorBorder: #000000;
-
-
   --screenWidth: 0;
   --screenHeight: 0;
   --mouse_x: 0;
@@ -27,6 +18,28 @@
   --linkFontSizeDyna: calc(var(--index) * 1);
 }
 
+.themeDark {
+  --colorMain: #000000;
+  --colorFirst: #282828;
+  --colorSecond: #1a231c;
+  --colorBackplate: #00FF000C;
+  --colorShadow: #366735;
+  --colorBorder: #f9eee8;
+  --colorText: #f9eee8;
+  --invertImage: 0%;
+}
+
+.themeLight {
+  --colorMain: #f9eee8;
+  --colorFirst: #366735; /*RAL 6001*/
+  --colorSecond: #27352A; /*RAL 6009*/
+  --colorBackplate: #00FF000C;
+  --colorShadow: #282828;
+  --colorBorder: #000000;
+  --colorText: #000000;
+  --invertImage: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -37,7 +50,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--colorMain);
+
 }
 
 ::selection {
@@ -46,5 +59,6 @@ html {
 }
 
 html, body {display: grid; height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: var(--colorMain)}
+
 
