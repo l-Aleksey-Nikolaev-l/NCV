@@ -12,29 +12,29 @@ export class EducationComponent implements OnInit {
       university: "ITMO University",
       years: "2017 - 2021",
       degree: "Postgraduate degree (PhD)",
-      GPA: "4.37",
-      thesis: "Research and modernization of laser heads for their use in CNC machines"
+      GPA: "4.37 of 5.00",
+      field: "Engineering (Faculty of Control Systems and Robotics)"
     },
     {
       university: "ITMO University",
       years: "2015 - 2017",
       degree: "Master's Degree",
-      GPA: "4.76",
-      thesis: "Study of the influence of end mills and the combination of roughing and finishing in the manufacture of parts from alloy AMg6"
+      GPA: "4.76 of 5.00",
+      field: "Engineering (Device-making technologies)"
     },
     {
       university: "ITMO University",
       years: "2011 - 2015",
       degree: "Bachelor's degree",
-      GPA: "4.41",
-      thesis: "Development a technological process for the manufacture of the \"Lid\" part"
+      GPA: "4.41 of 5.00",
+      field: "Engineering"
     },
     {
       university: "Professional lyceum \"Petrogradsky\"",
       years: "2007 - 2011",
       degree: "CNC Setter",
-      GPA: "4.05",
-      thesis: "Creation a CNC program for an aluminum body."
+      GPA: "4.05 of 5.00",
+      field: "Setting up CNC machines"
     }];
 
   eduCertificates = [
