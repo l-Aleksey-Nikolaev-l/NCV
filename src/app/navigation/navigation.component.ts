@@ -37,8 +37,6 @@ export class NavigationComponent implements OnInit {
   }
 
   NCVTheme(element:any) {
-    console.log(element.classList)
-
     if(element.classList[0] == "themeLight") {
       element.classList.remove("themeLight");
       element.classList.add("themeDark");
