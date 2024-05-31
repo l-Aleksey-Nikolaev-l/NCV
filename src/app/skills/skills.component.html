@@ -2,29 +2,7 @@
 <section class="skills">
   <div class="list_container">
     <ul>
-      <li>Angular</li>
-      <li>React</li>
-      <li>Bootstrap</li>
-      <li>.NET</li>
-      <li>GitHub</li>
-
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>JavaScript</li>
-      <li>NodeJS</li>
-      <li>C#</li>
-
-      <li>SOLID</li>
-      <li>Clean code</li>
-      <li>Agile & Waterfall</li>
-      <li>Analytical skills</li>
-      <li>Creating new solutions</li>
-
-      <li>Figma</li>
-      <li>WebStorm</li>
-      <li>Photoshop</li>
-      <li>Problem solving</li>
-      <li>Research</li>
+      <li *ngFor="let skill of skillList">{{skill}}</li>
     </ul>
   </div>
 </section>
