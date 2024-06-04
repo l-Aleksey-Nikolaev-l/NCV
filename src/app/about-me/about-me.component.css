@@ -35,6 +35,10 @@ img {
   background-origin:border-box;
 }
 
+.title_container {
+  text-indent: 2em
+}
+
 @media (max-width: 1006px) {
   .about_me {
     flex-direction: column;
