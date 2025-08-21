@@ -1,12 +1,12 @@
 <div class="certificate">
   <div class="certificate_picture">
-    <img src="{{inputCertificateData.certificateImage}}" alt="Picture of certificate">
+    <a href="{{inputCertificateData.webSite}}" target="_blank"><img src="{{inputCertificateData.certificateImage}}" alt="Organization logo"></a>
   </div>
   <div class="certificate_info">
     <p class="cert_info certificate_name">{{inputCertificateData.certificateName}}</p>
     <p class="cert_info place_of_certification">{{inputCertificateData.place}}</p>
     <p class="cert_info date_of_certification">Issue date: {{inputCertificateData.issueDate}}</p>
-    <p class="cert_info certificateID">ID: {{inputCertificateData.certificateID}}</p>
+    <p class="cert_info certificateID">{{inputCertificateData.certificateID ? 'ID:' + inputCertificateData.certificateID : ''}}</p>
   </div>
   <div class="certificate_links">
     <a class="certificate_link" href="{{inputCertificateData.certificateLink}}" target="_blank">Open certificate</a>
