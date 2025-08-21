@@ -20,6 +20,56 @@ export class ProjectsComponent {
       sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/CurrencyChart"
     },
     {
+      projectName: "Thread calculator",
+      picture: "assets/img/Thread_calculator.gif",
+      description: "A web-app for getting a code for CNC machines." +
+		  "A user can add point coordinates for an X and a Z axis, set a pitch" +
+		  " and a start angle. The app created for SGS Dental company with" +
+		  " vanilla JS, HTML and CSS.",
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/Thread-calculator/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Thread-calculator"
+    },
+    {
+      projectName: "Christmas Shop",
+      picture: "assets/img/Christmas_shop.gif",
+      description: "A simple web-app shop with two pages for 3 screens" +
+		  " (mobile, tablet and desktop) and designed by desktop-first design strategy." +
+		  " The design is Figma project of Nastya Maksimenko. The app created with" +
+		  " vanilla JS, HTML and CSS. All paged created in HTML and CSS." +
+		  " Based on JS was created interactivity like a carousel.",
+      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/christmas-shop/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Christmas-Shop"
+    },
+    {
+      projectName: "Simon says game",
+      picture: "assets/img/Simons_says.gif",
+      description: "A game for 3 screens and designed by desktop-first design strategy." +
+		  " The game follows all rules, contains sound effects and visual effects for all game actions." +
+		  " Some effects can be changed on settings page. Also, gamer can choose difficulty level" +
+		  " and show levels answers in the browser console.",
+      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/Simon-Says/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Simon-Says"
+    },
+    {
+      projectName: "Nonograms game",
+      picture: "assets/img/Nonograms.gif",
+      description: "A game for all screens up to 430px. The game contains 15 game fields with 3 difficulty levels." +
+		  " A gamer can save and resume the game at any time, even after closing the browser." +
+		  " Also, the gamer can repeat a current came, create a random game and lock the game answer." +
+		  " Moreover, it has a \"burger menu\" with settings.",
+      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/nonograms/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Nonograms"
+    },
+    {
+      projectName: "News portal",
+      picture: "assets/img/News_portal.gif",
+      description: "a simple web-app for fetching news portals throw proxy API and showing headers and images" +
+		  " in cards components. The app created based on Aleh Serhiyenia design. All components are created" +
+		  " with TS and built by Webpack. ",
+      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/News-API/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/News-API"
+    },
+    {
       projectName: "CUE Sheet Audio",
       picture: "assets/img/Cue_Sheet.gif",
       description: "This extension was created to make it easier to create and edit " +
