@@ -39,6 +39,14 @@ export class EducationComponent implements OnInit {
 
   eduCertificates = [
     {
+      certificateImage: "assets/img/RSS_logo.svg",
+      certificateName: "JavaScript/Front-end 2024Q4",
+      certificateID: "",
+      place: "RS School",
+      issueDate: "March 2025",
+      certificateLink: "",
+    },
+    {
       certificateImage: "assets/img/Johns-Hopkins-University.png",
       certificateName: "HTML, CSS, and Javascript for Web Developers",
       certificateID: "V3RY4TFUDBM3",
