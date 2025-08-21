@@ -13,11 +13,14 @@ export class ExperienceComponent {
       years:"2014 - 2022",
       jobPosition: "CNC programmer",
       jobDescription: [
-        "Writing code for manufacturing machines",
-        "Testing, analyzing and correcting existing code",
-        "Supporting code at all stages of the life cycle",
-        "Writing technical documentation",
-        "Training & mentoring"
+        "Create project for CNC machines",
+        "Testing, analyze and fix existing projects code",
+        "Support a code at all stages of the life cycle",
+        "Code review",
+        "Technical research (scopus)",
+        "Create technical documentation",
+        "Meet with customers",
+        "Training and mentoring new employees ",
       ],
     },
     {
@@ -25,11 +28,11 @@ export class ExperienceComponent {
       years:"2012 - 2014",
       jobPosition: "Adjuster CNC machines",
       jobDescription: [
-        "Working with 3-Axis and 3+1-Axis CNC machines",
-        "Setting up production equipment",
-        "Debugging program projects",
-        "Reading blueprints and technical documentation",
-        "Writing documentation for the purchase of tools"
+        "Work with 3-Axis and 3+1-Axis CNC machines",
+        "Set up production equipment",
+        "Debug program projects",
+        "Read blueprints and technical documentation",
+        "Write documentation for the purchase of tools"
       ],
     }]
 
