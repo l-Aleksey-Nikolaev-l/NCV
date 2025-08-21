@@ -3,26 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
+  row-gap: 76px;
   width: 100%;
-  height: 2060px;
-}
-
-
-@media (min-width: 1700px) { /* for 4K */
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 1400px;
-  }
-
-}
-
-@media (max-width: 1356px) { /* for Tablet */
-  .projects {
-    height: 2060px;
-  }
-
 }
 
 @media (max-width: 1006px) { /* for Phones */
