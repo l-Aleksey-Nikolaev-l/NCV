@@ -45,6 +45,7 @@ export class EducationComponent implements OnInit {
       place: "RS School",
       issueDate: "March 2025",
       certificateLink: "",
+	  webSite: "https://rs.school/",
     },
     {
       certificateImage: "assets/img/Johns-Hopkins-University.png",
@@ -52,7 +53,8 @@ export class EducationComponent implements OnInit {
       certificateID: "V3RY4TFUDBM3",
       place: "The Johns Hopkins University",
       issueDate: "February 2023",
-      certificateLink: "https://www.coursera.org/account/accomplishments/verify/V3RY4TFUDBM3"
+      certificateLink: "https://www.coursera.org/account/accomplishments/verify/V3RY4TFUDBM3",
+	  webSite: "https://www.coursera.org/partners/jhu",
     },
     {
       certificateImage: "assets/img/HackerRank_1000px.png",
@@ -60,7 +62,8 @@ export class EducationComponent implements OnInit {
       certificateID: "B1B49D0C7BF3",
       place: "HackerRank",
       issueDate: "November 2023",
-      certificateLink: "https://www.hackerrank.com/certificates/b1b49d0c7bf3"
+      certificateLink: "https://www.hackerrank.com/certificates/b1b49d0c7bf3",
+	  webSite: "https://www.hackerrank.com/",
     }
   ]
 
