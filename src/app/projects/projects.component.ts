@@ -37,8 +37,8 @@ export class ProjectsComponent {
 		  " The design is Figma project of Nastya Maksimenko. The app created with" +
 		  " vanilla JS, HTML and CSS. All paged created in HTML and CSS." +
 		  " Based on JS was created interactivity like a carousel.",
-      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/christmas-shop/",
-      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Christmas-Shop"
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/RSS/christmas-shop/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/RSS/tree/christmas-shop/christmas-shop"
     },
     {
       projectName: "Simon says game",
@@ -47,8 +47,8 @@ export class ProjectsComponent {
 		  " The game follows all rules, contains sound effects and visual effects for all game actions." +
 		  " Some effects can be changed on settings page. Also, gamer can choose difficulty level" +
 		  " and show levels answers in the browser console.",
-      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/Simon-Says/",
-      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Simon-Says"
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/RSS/Simon-Says/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/RSS/tree/simon-says/Simon-Says"
     },
     {
       projectName: "Nonograms game",
@@ -57,8 +57,8 @@ export class ProjectsComponent {
 		  " A gamer can save and resume the game at any time, even after closing the browser." +
 		  " Also, the gamer can repeat a current came, create a random game and lock the game answer." +
 		  " Moreover, it has a \"burger menu\" with settings.",
-      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/nonograms/",
-      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/Nonograms"
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/RSS/nonograms/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/RSS/tree/nonograms/nonograms"
     },
     {
       projectName: "News portal",
@@ -66,8 +66,8 @@ export class ProjectsComponent {
       description: "a simple web-app for fetching news portals throw proxy API and showing headers and images" +
 		  " in cards components. The app created based on Aleh Serhiyenia design. All components are created" +
 		  " with TS and built by Webpack. ",
-      projectLink: "https://rolling-scopes-school.github.io/nginit-JSFE2024Q4/News-API/",
-      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/News-API"
+      projectLink: "https://l-aleksey-nikolaev-l.github.io/RSS/News-API/",
+      sourceLink: "https://github.com/l-Aleksey-Nikolaev-l/RSS/tree/news-api/News-API"
     },
     {
       projectName: "CUE Sheet Audio",
