@@ -6,8 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  skillList:string[] = ["Angular", "React", "Bootstrap", "HTML", "CSS",
-                        "JavaScript", "TypeScript", "C#", ".NET", "Node.js",
-                        "GitHub", "SOLID", "Clean Code", "Agile & Waterfall", "Analytical skills",
-                        "Creating new solutions", "Problem solving", "Figma", "WebStorm", "Photoshop"];
+	skillList: string[] = [
+		"JavaScript", "TypeScript", "Node.js", "HTML", "CSS",
+		"Angular", "React", "Bootstrap", "ESLint", "Prettier",
+		"GitHub", "Webpack", "NPM", "OOP", "SOLID",
+		"Figma", "WebStorm", "Agile & Waterfall", "Analytical skills", "Code review"
+	];
 }
